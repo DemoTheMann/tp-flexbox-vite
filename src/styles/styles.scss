@@ -1,0 +1,28 @@
+@import 'src/styles/vendors/reset.scss';
+
+@font-face {
+    font-family: Gill;
+    src: url('/src/fonts/gill/GillSansMTPro-Medium.otf') format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+img {
+    max-width: 100%;
+}
+
+@import 'body.scss';
+
+@import 'body.scss';
+
+@import 'pokémon.scss';
+
+@import 'picture.scss';
+
+@import 'ability.scss';
+
+@import 'stats.scss';
+
+@import 'footer.scss';

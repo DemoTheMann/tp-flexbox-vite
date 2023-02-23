@@ -4,40 +4,56 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/styles/style.scss" />
+    <link rel="stylesheet" href="src/styles/styles.scss" />
     <title>Bulbizarre</title>
   </head>
   <body>
 
-    <header>
-      <h3>Pokémon de base</h3>
-      <h1>Bulbizarre</h1>
-      <h3>40 PV</h3>
-      <picture><img src="src/img/leaf.png" alt="Élement plante"></picture>
+    <header class="pokémon">
+      <div>
+        <h3 class="pokémon__description">Pokémon de base</h3>
+        <h1 class="pokémon__name">Bulbizarre</h1>
+      </div>
+      <div>
+        <h2 class="pokémon__lifePoints">40 PV</h2>
+        <picture><img src="src/img/leaf.png" alt="Élement plante" class="pokémon__element"></picture>
+      </div>
+      
     </header>
 
-    <figure>
+    <figure class="picture">
       <picture>
         <img src="src/img/bulbizarre.jpg" alt="Bulbizarre">
       </picture>
-      <p>Pokémon Graine. Taille: 0.7 m, Poids: 6,9 kg</p>
+      <p class="picture__physique">Pokémon Graine. Taille: 0.7 m, Poids: 6,9 kg</p>
     </figure>
 
-    <section class="desc">
-      <picture><img src="src/img/leaf.png" alt="Élement plante"><img src="src/img/leaf.png" alt="Élement plante"></picture>
-      <p><span style="font-weight: bold;">Vampigraine</span> À moins que tous les dégâts infligés par cette attaque ne soient prévenus, vous pouvez retirer 1 marqueur de dégâts de Bulbizarre</p>
-      <div class="attributes">
-        <h3>Faiblesse</h3>
-        <picture><img src="src/img/fire.png" alt="Élement feu"></picture>
-        <h3>Résistance</h3>
-        <picture></picture>
-        <h3>Coût de retraite</h3>
-        <picture><img src="src/img/normal.png" alt="Élement normal"></picture>
+    <section class="ability">
+      <div>
+        <picture><img src="src/img/leaf.png" alt="Élement plante" class="ability__element"><img src="src/img/leaf.png" alt="Élement plante" class="ability__element"></picture>
+        <p class="ability__description"><span style="font-weight: bold;">Vampigraine</span> À moins que tous les dégâts infligés par cette attaque ne soient prévenus, vous pouvez retirer 1 marqueur de dégâts de Bulbizarre</p>
+        <h3 class="ability__damage">20</h3>
       </div>
     </section>
+      
+    <section class="stats">
+        <div >
+          <h3 class="stats__text">Faiblesse</h3>
+          <picture><img src="src/img/fire.png" alt="Élement feu" class="stats__element"></picture>
+        </div>
+        <div>
+          <h3 class="stats__text">Résistance</h3>
+          <picture></picture>
+        </div>
+        <div>
+          <h3 class="stats__text">Coût de retraite</h3>
+          <picture><img src="src/img/normal.png" alt="Élement normal" class="stats__element"></picture>
+        </div>        
+    </section>
+    
 
     <footer>
-      <p>Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis la naissance. NIV.13 No. 1</p>
+      <p class="appearance">Il a une étrange graine plantée sur son dos. Elle grandit avec lui depuis la naissance. NIV.13 No. 1</p>
     </footer>
 
   </body>

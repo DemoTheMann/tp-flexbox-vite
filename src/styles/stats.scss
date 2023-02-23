@@ -1,0 +1,18 @@
+.stats {
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 2px black;
+    width: 90vw;
+}
+.stats div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stats__text {
+    font-size: 0.8rem;
+}
+.stats__element {
+    margin: 5px;
+}

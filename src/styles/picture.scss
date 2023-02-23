@@ -1,0 +1,21 @@
+.picture {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture img {
+    border: 5px solid;
+    border-image: linear-gradient(#fbff15,#bfc20a) 4;
+    box-shadow: 2px 2px 10px black;
+}
+
+.picture__physique {
+    text-align: center;
+    width: 90%;
+    font-size: 0.8rem;
+    background-image: linear-gradient(#e9ec23,#97990f);
+    margin: 5px;
+    padding: 3px;
+}

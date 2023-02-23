@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.appearance {
+    border: 2px solid;
+    border-image: linear-gradient(#fbff15,#bfc20a) 4;
+    font-size: 0.75rem;
+    max-width: 80vw;
+    padding: 2px;
+}

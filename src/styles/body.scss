@@ -1,0 +1,13 @@
+body {
+    border: 10px solid;
+    border-image: linear-gradient(#bfc20a,#fbff15,) 4;
+    font-family: 'Gill';
+    background-image: url('/src/img/noiseTexture.png');
+    background-color: #adbe79;
+    background-blend-mode: overlay;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

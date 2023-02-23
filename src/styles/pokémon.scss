@@ -1,0 +1,36 @@
+.pokémon {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.pokémon div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokémon div:last-child {
+    display: flex;
+}
+
+.pokémon_name {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.pokémon__lifePoints {
+    font-size: 1.3rem;
+    color: red;
+    align-self: flex-end;
+    margin: 5px;
+}
+
+.pokémon__description {
+    font-size: 0.8rem;
+}
+
+.pokémon__element {
+    width: 25px;
+}
